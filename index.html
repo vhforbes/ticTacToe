@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="playerNames">
+    <div class='playerDiv' id="playerOneNameDiv">
+      <p><strong>Player One:</strong></p>
+      <input class='nameInput' type="text" name="playerOneName" id="playerOneName">
+    </div>
+
+    <div class="playerDiv" id="playerTwoNameDiv">
+      <p><strong>Player Two:</strong></p>
+      <input class='nameInput' type="text" name="playerTwoName" id="playerTwoName">
+    </div>
+  </div>
+  
+  <br>
+
+  <input type="button" value="Start" class="buttons" id="startButton">
+  <br>
+  <input type="button" value="Reset" class="buttons" id="resetButton">
+    
+
+  <p id="gameDisplay">Ready? Input your names and press START!</p>
+  
+  <div id="game">
+    <table id="table">
+      <tr>
+        <th id="1"></th>
+        <th id="2"></th>
+        <th id="3"></th>
+      </tr>
+      <tr>
+        <th id="4"></th>
+        <th id="5"></th>
+        <th id="6"></th>
+      </tr>
+      <tr>
+        <th id="7"></th>
+        <th id="8"></th>
+        <th id="9"></th>
+      </tr>
+    </table>
+  </div>
+
+
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  background-color: rgb(152, 204, 253);
+  color: rgb(0, 71, 138);
+  font-family: 'Chilanka', cursive;
+}
+
+.playerNames {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.playerDiv {
+  font-size: 22px;
+  margin: 10px 20px 0px 20px ;
+
+}
+
+.nameInput {
+  height: 30px;
+  width: 100%;
+  border: solid 2px rgb(0, 71, 138);
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(152, 204, 253);
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Chilanka', cursive;
+}
+
+.nameInput, select, textarea{
+  color: rgb(0, 71, 138);
+}
+
+.nameInput textarea:focus, input:focus {
+  color: rgb(0, 71, 138);
+}
+
+.buttons {
+  width: 30%;
+  height: 40px;
+  margin-top: 15px;
+  background-color: rgb(0, 71, 138);
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Chilanka', cursive;
+}
+
+.buttons:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttons:focus{
+  color: white;
+}
+
+.buttons:active {
+  color: white;
+}
+
+
+#game {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#gameDisplay {
+  font-size: 26px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 15px solid rgb(152, 204, 253);
+  border-radius: 10px;
+}
+
+th {
+  font-size: 50px;
+  border: 5px solid rgb(0, 71, 138);
+  height: 100px;
+  width: 100px;
+
+}
+
+.playerNames {
+  margin-bottom: 25px;
+}
