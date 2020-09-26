@@ -2,13 +2,14 @@
 
 This is a project from The Odin Project, an open source programming learning course.
 
-I was given six user stories. Everything was made with my own logic and assumptions, without following any kind of tutorial.
-
 The main goal of the project was to apply and test my knoledge of the **Module Pattern** and **Factiry Functions**.
 
-You can check it out and play the game [here](https://vhforbes.github.io/ticTacToe/)!
+You can check it out and [play the game here](https://vhforbes.github.io/ticTacToe/)!
+
+I was given six user stories. Everything was made with my own logic and assumptions, without following any kind of tutorial.
 
 1. Set up your project with a HTML, CSS and Javascript files and get the Git repo all set up.
+
 
 2. You’re going to store the gameboard as an array inside of a Gameboard object, so start there! Your players are also going to be stored in objects… and you’re probably going to want an object to control the flow of the game itself.
 Your main goal here is to have as little global code as possible. Try tucking everything away inside of a module or factory. Rule of thumb: if you only ever need ONE of something (gameBoard, displayController), use a module. If you need multiples of something (players!), create them with factories.
