@@ -2,7 +2,7 @@
 
 This is a project from The Odin Project, an open source programming learning course.
 
-The main goal of the project was to apply and test my knoledge of the **Module Pattern** and **Factiry Functions**.
+The main goal of the project was to apply and test my knoledge of the **Module Pattern** and **Factory Functions**.
 
 You can check it out and [play the game here](https://vhforbes.github.io/ticTacToe/)!
 
